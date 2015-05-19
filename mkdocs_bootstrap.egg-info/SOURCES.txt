@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+mkdocs_bootstrap/__init__.py
+mkdocs_bootstrap.egg-info/PKG-INFO
+mkdocs_bootstrap.egg-info/SOURCES.txt
+mkdocs_bootstrap.egg-info/dependency_links.txt
+mkdocs_bootstrap.egg-info/entry_points.txt
+mkdocs_bootstrap.egg-info/not-zip-safe
+mkdocs_bootstrap.egg-info/top_level.txt
