@@ -1,3 +1,0 @@
-[mkdocs.themes]
-bootstrap = mkdocs_bootstrap
-
