@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "MkDocs Bootstrap Theme\n\uf0c1", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#mkdocs-bootstrap-theme", 
+            "text": "", 
+            "title": "MkDocs Bootstrap Theme"
+        }
+    ]
+}
