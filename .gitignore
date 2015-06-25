@@ -1,6 +1,4 @@
-dist/
-htmlcov/
-.tox/
-mkdocs_bootstrap.egg-info/
 *.pyc
-.coverage
+dist/
+mkdocs_bootstrap.egg-info/
+site/
