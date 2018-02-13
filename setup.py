@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.1.1'
+VERSION = '0.2.0'
 
 
 setup(
     name="mkdocs-bootstrap",
     version=VERSION,
-    url='http://www.mkdocs.org',
+    url='http://mkdocs.github.io/mkdocs-bootstrap/',
     license='BSD',
     description='Bootstrap theme for MkDocs',
     author='Dougal Matthews',
