@@ -45,7 +45,7 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 {%- block search_button %} {%- endblock %}
-                
+
                 {%- block next_prev %}
                 {%- if page and (page.next_page or page.previous_page) %}
                     <li {% if not page.previous_page %}class="disabled"{% endif %}>
