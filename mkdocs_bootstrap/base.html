@@ -60,14 +60,16 @@
 
         <div class="container">
             {%- block content %}
-                <div class="col-md-3">{% include "toc.html" %}</div>
-                <div class="col-md-9" role="main">{% include "content.html" %}</div>
+                <div class="row">
+                    <div class="col-md-3">{% include "toc.html" %}</div>
+                    <div class="col-md-9" role="main">{% include "content.html" %}</div>
+                </div>
             {%- endblock %}
         </div>
 
-    <footer class="col-md-12">
+    <hr>
+    <footer class="container">
         {%- block footer %}
-        <hr>
         {% if config.copyright %}
         <center>{{ config.copyright }}</center>
         {% endif %}
