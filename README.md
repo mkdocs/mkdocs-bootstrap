@@ -4,10 +4,24 @@ See the documentation for more details:
 
 http://mkdocs.github.io/mkdocs-bootstrap/
 
-[![PyPI Downloads][pypi-dl-image]][pypi-dl-link]
 [![PyPI Version][pypi-v-image]][pypi-v-link]
+[![BSD License][bsdlicense-button]][bsdlicense]
 
-[pypi-dl-image]: https://img.shields.io/pypi/dm/mkdocs-bootstrap.png
-[pypi-dl-link]: https://pypi.python.org/pypi/mkdocs-bootstrap
 [pypi-v-image]: https://img.shields.io/pypi/v/mkdocs-bootstrap.png
 [pypi-v-link]: https://pypi.python.org/pypi/mkdocs-bootstrap
+[bsdlicense-button]: http://img.shields.io/badge/license-BSD-yellow.svg
+[bsdlicense]: http://opensource.org/licenses/BSD-2-Clause
+
+## Release Notes
+
+### Version 0.2 (2018/02/13)
+
+* Added support for MkDocs version 0.17 (#17).
+* Fixed use of Bootstrap Grid (#15).
+* Updated to FontAwesome 4.7.0 (#14).
+* Updated to Bootstrap 3.3.7 (#11).
+* Updated RespondJS and html5shiv (#9).
+
+### Version 0.1.1 (2015/06/23)
+
+Initial release.
