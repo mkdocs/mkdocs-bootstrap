@@ -2,15 +2,15 @@
 
 See the documentation for more details:
 
-http://mkdocs.github.io/mkdocs-bootstrap/
+https://mkdocs.github.io/mkdocs-bootstrap/
 
 [![PyPI Version][pypi-v-image]][pypi-v-link]
 [![BSD License][bsdlicense-button]][bsdlicense]
 
 [pypi-v-image]: https://img.shields.io/pypi/v/mkdocs-bootstrap.png
 [pypi-v-link]: https://pypi.python.org/pypi/mkdocs-bootstrap
-[bsdlicense-button]: http://img.shields.io/badge/license-BSD-yellow.svg
-[bsdlicense]: http://opensource.org/licenses/BSD-2-Clause
+[bsdlicense-button]: https://img.shields.io/badge/license-BSD-yellow.svg
+[bsdlicense]: https://opensource.org/licenses/BSD-2-Clause
 
 ## Release Notes
 
