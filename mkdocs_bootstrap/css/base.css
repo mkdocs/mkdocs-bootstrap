@@ -13,8 +13,12 @@ h1 {
   font-size: 28px;
 }
 
-h2, h3 {
+h2 {
   font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
 }
 
 ul.nav li.main {
