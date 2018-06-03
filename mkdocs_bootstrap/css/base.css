@@ -33,8 +33,9 @@ div.source-links {
     float: right;
 }
 
-div.col-md-9 img {
-  max-width: 100%;
+div.container img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /*
