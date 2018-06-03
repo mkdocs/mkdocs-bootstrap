@@ -1,0 +1,12 @@
+<div class="bs-sidebar hidden-print affix" role="complementary">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url=""
+        data-count="vertical">Tweet</a>
+    <script type="text/javascript"
+        src="http://platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".twitter-share-button").attr("data-url") =
+            encodeURLComponent(window.location);
+        });
+    </script>
+</div>
