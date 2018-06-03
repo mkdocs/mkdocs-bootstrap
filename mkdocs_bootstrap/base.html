@@ -62,7 +62,8 @@
             {%- block content %}
                 <div class="row">
                     <div class="col-md-3">{% include "toc.html" %}</div>
-                    <div class="col-md-9" role="main">{% include "content.html" %}</div>
+                    <div class="col-md-8" role="main">{% include "content.html" %}</div>
+                    <div class="col-md-1">{% include "sns.html" %}</div>
                 </div>
             {%- endblock %}
         </div>
@@ -76,7 +77,6 @@
         <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         {%- endblock %}
     </footer>
-
         {%- block scripts %}
         <script src="{{ base_url }}/js/base.js"></script>
         {%- for path in extra_javascript %}
