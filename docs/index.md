@@ -21,7 +21,7 @@ This [documentation] is rendered with the Bootstrap theme.
 ![Bootstrap](bootstrap-example-fluid.png)
 
 
-[MkDocs]: http://www.mkdocs.org
-[mkdocs.yml]: http://www.mkdocs.org/user-guide/configuration/
-[name]: http://www.mkdocs.org/user-guide/configuration/#name
-[documentation]: http://mkdocs.github.io/mkdocs-bootstrap/
+[MkDocs]: https://www.mkdocs.org
+[mkdocs.yml]: https://www.mkdocs.org/user-guide/configuration/
+[name]: https://www.mkdocs.org/user-guide/configuration/#name
+[documentation]: https://mkdocs.github.io/mkdocs-bootstrap/
