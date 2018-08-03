@@ -14,7 +14,7 @@ https://mkdocs.github.io/mkdocs-bootstrap/
 
 ## Release Notes
 
-### Development Version
+### Version 1.0 (2018/08/03)
 
 * Inherit from the `mkdocs` theme and get all the parent theme's features.
 * Update to support MkDocs version 1.0.
