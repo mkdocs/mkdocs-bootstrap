@@ -4,28 +4,28 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="MkDocs Bootstrap Theme">
+        
         <meta name="author" content="Tom Christie & Dougal Matthews">
-        <link rel="canonical" href="http://mkdocs.github.io/mkdocs-bootstrap/">
-        <link rel="shortcut icon" href="img/favicon.ico">
+        
+        <link rel="shortcut icon" href="/mkdocs-bootstrap/img/favicon.ico">
         <title>MkDocs Bootstrap Theme</title>
-    <link href="css/bootstrap-3.3.7.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/base.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <link href="/mkdocs-bootstrap/css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="/mkdocs-bootstrap/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/mkdocs-bootstrap/css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-    <script src="js/jquery-1.10.2.min.js" defer></script>
-    <script src="js/bootstrap-3.3.7.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script> 
+        <script src="/mkdocs-bootstrap/js/jquery-1.10.2.min.js" defer></script>
+        <script src="/mkdocs-bootstrap/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">MkDocs Bootstrap Theme</a>
+                    <a class="navbar-brand" href="/mkdocs-bootstrap/.">MkDocs Bootstrap Theme</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -52,7 +52,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/mkdocs/mkdocs-bootstrap/edit/master/docs/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/mkdocs/mkdocs-bootstrap/"><i class="fa fa-github"></i> GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -60,29 +60,15 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#mkdocs-bootstrap-theme">MkDocs Bootstrap Theme</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#example">Example</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
 
-<h1 id="mkdocs-bootstrap-theme">MkDocs Bootstrap Theme</h1>
-<p>This project provides a Bootstrap theme is for the <a href="https://www.mkdocs.org">MkDocs</a> project.</p>
-<h2 id="installation">Installation</h2>
-<p>Install the theme with pip:</p>
-<pre><code>pip install mkdocs-bootstrap
-</code></pre>
-<p>After the theme is installed, edit your <a href="https://www.mkdocs.org/user-guide/configuration/">mkdocs.yml</a> file and set the theme
-<a href="https://www.mkdocs.org/user-guide/configuration/#name">name</a> to <code>bootstrap</code>:</p>
-<pre><code>theme:
-    name: bootstrap
-</code></pre>
-<h2 id="example">Example</h2>
-<p>This <a href="https://mkdocs.github.io/mkdocs-bootstrap/">documentation</a> is rendered with the Bootstrap theme.</p>
-<p><img alt="Bootstrap" src="bootstrap-example-fluid.png" /></p></div>
+    <div class="row-fluid">
+      <div id="main-content" class="span12">
+        <h1 id="404-page-not-found" style="text-align: center">404</h1>
+        <p style="text-align: center"><strong>Page not found</strong></p>
+      </div>
+    </div>
+
+
         </div>
 
         <footer class="col-md-12">
@@ -91,11 +77,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "/mkdocs-bootstrap",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="/mkdocs-bootstrap/js/base.js" defer></script>
+        <script src="/mkdocs-bootstrap/search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -163,8 +149,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0
-Build Date UTC : 2018-08-03 16:42:37
--->
