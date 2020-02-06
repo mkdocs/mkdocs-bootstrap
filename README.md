@@ -14,6 +14,11 @@ https://mkdocs.github.io/mkdocs-bootstrap/
 
 ## Release Notes
 
+### Version 1.1 (2020/??/??)
+
+* Update to support MkDocs version 1.1.
+* Update to support Bootstrap 4.
+
 ### Version 1.0.1 (2018/10/01)
 
 * Include `mkdocs_theme.yml` in MANIFEST.
