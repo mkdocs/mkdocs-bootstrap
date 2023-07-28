@@ -14,6 +14,10 @@ https://mkdocs.github.io/mkdocs-bootstrap/
 
 ## Release Notes
 
+### Version 1.1.1 (2023-07-28)
+
+* Fix issue with package distribution files (#32).
+
 ### Version 1.1 (2020/02/22)
 
 * Update to support MkDocs version 1.1.
