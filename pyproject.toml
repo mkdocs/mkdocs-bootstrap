@@ -1,0 +1,38 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'mkdocs-bootstrap'
+dynamic = ['version']
+description = "Bootstrap theme for MkDocs"
+readme = {file = 'README.md', content-type='text/markdown'}
+authors = [
+    {name = 'Dougal Matthews', email = 'dougal@dougalmatthews.com'}
+]
+maintainers = [
+    {name = 'Waylan Limberg', email = 'waylan.limberg@icloud.com'}
+]
+license = {file = 'LICENSE'}
+requires-python = '>=3.5'
+dependencies = [
+    'mkdocs>=1.1'
+]
+
+[project.urls]
+'Homepage' = 'http://mkdocs.github.io/mkdocs-bootstrap/'
+'Repository' = 'https://github.com/mkdocs/mkdocs-bootstrap'
+'Issue Tracker' = 'https://github.com/mkdocs/mkdocs-bootstrap/issues'
+
+[project.entry-points.'mkdocs.themes']
+bootstrap = 'mkdocs_bootstrap'
+
+[tool.setuptools]
+packages = ['mkdocs_bootstrap', 'mkdocs_bootstrap.css']
+
+[tool.setuptools.package-data]
+"*" = ['*.css', '*.yml']
+
+[tool.setuptools.dynamic]
+version = {attr = 'mkdocs_bootstrap.__version__'}
